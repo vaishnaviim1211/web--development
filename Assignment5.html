@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Employee Registration</title>
+    <style>
+
+      body {
+        font-family: Arial, sans-serif;
+        background: #f4f4f4;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+        flex-direction: column;
+      }
+
+      .container {
+        background: white;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        width: 300px;
+      }
+
+      input,
+      select,
+      button {
+        width: 100%;
+        margin: 10px 0;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+      }
+
+      button {
+            background: #28a745;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        button:hover {
+            background: #218838;
+        }
+    </style>
+  </head>
+  <body>
+    <h1 style="text-align: center">Assignment No.5</h1>
+    <h3 style="text-align: center">Vaishnavi Managuli</h3>
+    <h3 style="text-align: center">Roll no. 104 B5</h3>
+    <div class="container">
+        <h2>Employee Registration</h2>
+        <form>
+            <input type="text" placeholder="Full Name" required>
+            <input type="email" placeholder="Email" required>
+            <input type="tel" placeholder="Phone" required>
+            <select required>
+                <option value="">Select Department</option>
+                <option>HR</option>
+                <option>IT</option>
+                <option>Finance</option>
+                <option>Marketing</option>
+            </select>
+            <input type="text" placeholder="Job Title" required>
+            <button type="submit">Register</button>
+        </form>
+    </div>
+</body>
+</html>
